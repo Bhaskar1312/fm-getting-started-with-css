@@ -149,6 +149,17 @@ nav a {
   display: block; /* block level element, takes up the whole width, default a =inline=take as much as wide */
 }
 
-nav a:hover {
+nav a:hover, nav [class*="fa-"]:hover {
   color: var(--magenta);
+}
+
+nav [class*="fa-"] { /* this is more specific nav a:hover, hence need nav fa*:hover*/
+  /* * means any, fa- means any class that has fa- in it */
+ font-size: 150%;
+ color: var(--aqua);
+}
+
+nav h1 [class*="fa-"] {
+  font-size: 100%;
+  color: var(--aqua);
 }

@@ -43,3 +43,12 @@ hamburger menu with just css in https://frontendmasters.com/courses/advanced-css
 
 https://fontawesome.com/icons
 for icons
+
+loading as icon requires https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+where as svg doesn't
+
+if target audience knows icons, use only icons, otherwise use icons+text
+
+use only icons/svgs
+aria-hidden = true, hide from screen-readers
+sr-only = read by screen readers only
