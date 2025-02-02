@@ -21,3 +21,21 @@ https://www.fontpair.co/
 https://www.internetfundamentals.com/watch
 https://frontendmasters.com/bootcamp
 https://frontendmasters.github.io/bootcamp
+
+css variables 
+https://frontendmasters.com/courses/css-variables/
+border box
+https://css-tricks.com/box-sizing/
+
+
+https://frontendmasters.github.io/bootcamp/
+
+by default, headings have margin assigned to them. 1em = relative unit for all headings
+
+margin in css, two elements with margin 1rem in vertical direction, they will collapse to 1rem(if they are 1 rem, 2rem, 2rem wins in margin-land)
+padding, two elements with margin 1rem, distance 2rem
+
+when you set up links inside elements/text like p, display underline by default, turn off underline on hover; 10% of population is color-blind, hence have something other than color. Accessibility
+
+on nav-bar, fine to turn off underline, we have position in space, markup to indicate that it is link
+

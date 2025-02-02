@@ -23,6 +23,7 @@ body {
 } */
 /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
+  /* pseudo class weighted more than html and html has before and after */
   --black: #171321;
   --dkblue: #0d314b;
   --plum: #4b0d49;
