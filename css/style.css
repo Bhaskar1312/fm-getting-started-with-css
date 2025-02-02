@@ -96,3 +96,17 @@ a:hover {
 body {
   font-family: Arial, sans-serif;
 }
+
+#contact{
+  text-align: center;
+  width: 400px;
+  margin: 0 auto; /* first number is vertical top,bottom, second is left,right */
+  /* whatever is left after 400px, divide in half, and equally */
+  padding: 3rem 0;
+  /* background-color: var(--plum); */
+}
+
+/* pseduo class last-child */
+#contact p:last-child {
+  margin-top: 3rem;
+}
