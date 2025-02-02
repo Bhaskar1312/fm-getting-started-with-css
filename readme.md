@@ -39,3 +39,7 @@ when you set up links inside elements/text like p, display underline by default,
 
 on nav-bar, fine to turn off underline, we have position in space, markup to indicate that it is link
 
+hamburger menu with just css in https://frontendmasters.com/courses/advanced-css-layouts/
+
+https://fontawesome.com/icons
+for icons

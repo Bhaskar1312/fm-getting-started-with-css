@@ -110,3 +110,45 @@ body {
 #contact p:last-child {
   margin-top: 3rem;
 }
+
+/* nav-bar css */
+nav {
+  font-family: var(--mono);
+  font-size: 80%; /* 80% of the parent element */
+  padding: 1rem;
+
+}
+
+/* to target h1 inside a , write from left to right css while writing, read from right to left */
+nav h1 a {
+  font-family: var(--sans);
+}
+ nav ul {
+  list-style: none; /* removes the bullet points */
+  margin: 0; /* by default, ul/ol have a padding/margin depending on browser */
+  padding: 0;
+  display: flex; /* put everything in one-direction */
+  flex-flow: row wrap; /* row wrap, if there is not enough space, it will wrap to another line */
+  justify-content: center;
+  align-items: center; /** vertically center */
+  gap: 2rem; /* gap between the elements */
+}
+
+nav li:first-child {
+  /* flexbox - parent/children, all props on ul, li then takes diff properties; flex-basis can be used with flexbox, when flex-basis=25%,it can be 24,26,any, but width=25,only 25  */
+  flex-basis: 100%; /* close to 100% of the width */
+  /* flex: 0 1 100%; /* flex-grow, flex-shrink, flex-basis * */
+  text-align: center;
+  /* border: 1px solid red; /*for debugging why it worked/not*/ 
+}
+ 
+nav a {
+  /* style all states, unvisited links, visited links, hover state(mouse over, no focus on mobile devices), focus state(tab thru web, box over selected), active state(moment b/w link click and next page loading) */
+  color: var(--white);
+  text-decoration: none; /* less imp that they are links/underline as they are in nav*/
+  display: block; /* block level element, takes up the whole width, default a =inline=take as much as wide */
+}
+
+nav a:hover {
+  color: var(--magenta);
+}
