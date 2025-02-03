@@ -63,3 +63,5 @@ To bring a brand/attention, make Resume a button
 responsive design
 https://frontendmasters.com/courses/css-grid/
 
+<small> like <b> and <i> disappeared in HTML4, back in HTML5.
+used for small print, disclaimers, copyright
