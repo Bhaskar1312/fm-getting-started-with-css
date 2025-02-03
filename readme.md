@@ -52,3 +52,10 @@ if target audience knows icons, use only icons, otherwise use icons+text
 use only icons/svgs
 aria-hidden = true, hide from screen-readers
 sr-only = read by screen readers only
+
+The <a> element is inline by default. Inline means that it's only as big as the content inside of it. When we change it to block, the size changes from the size of the content to the size of its parent element (the LI). That gives us a much larger clickable area than we had with the inline <a> by itself.
+
+Button is about executing something = submitting a form. opening a modal window, 
+Link is about, go to another page, page on same website, or another website
+
+To bring a brand/attention, make Resume a button
