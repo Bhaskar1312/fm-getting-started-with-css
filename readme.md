@@ -59,3 +59,7 @@ Button is about executing something = submitting a form. opening a modal window,
 Link is about, go to another page, page on same website, or another website
 
 To bring a brand/attention, make Resume a button
+
+responsive design
+https://frontendmasters.com/courses/css-grid/
+
