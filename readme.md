@@ -67,3 +67,8 @@ https://frontendmasters.com/courses/css-grid/
 used for small print, disclaimers, copyright
 
 .html > type ! > press tab 
+
+
+To implement a gradient, use border-image. works in chrome, firefox, but not in safari
+so use div with a class of gradient, small height to generate the line
+use https://cssgradient.io/ to generate gradient. Use #ff17e4 as the starting color and #86fbfb as the ending color for this exercise, stops at 35, 68, angle at 90deg
