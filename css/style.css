@@ -203,6 +203,57 @@ nav h1 [class*="fa-"] {
   height: 2px;
 }
 
+/* section styles */
+.section-dkblue {
+  background-color: var(--dkblue);
+}
+
+#projects {
+  padding: 4rem 1rem;
+}
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3 {
+  color: var(--aqua);
+}
+/* headings by default have some margin associated with them */
+#projects h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.blackbox {
+  background-color: var(--black);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* To make list items not in bullets, vertical */
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+#projects img {
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  border-radius: 25px;
+}
+
 /* footer section */
 footer {
   text-align: center;
