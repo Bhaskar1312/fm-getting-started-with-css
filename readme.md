@@ -88,6 +88,9 @@ text-align is a inherited property, that can cascade thru all of the text
 grid-column to span from one col to another, but puts it on another row.
 so use grid-row to align on same row
 
+css only hamburger menu https://jen4web.substack.com/p/hamburgers
+css only dropdown https://jen4web.substack.com/p/hamburgers
+
 extras:
 How to create a page for projects on github
 https://pages.github.com/
