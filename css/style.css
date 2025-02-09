@@ -66,6 +66,12 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+
+img {
+  width: 100%;
+  /* small hack that scales image across the screen instead of native width */
+}
+
 /* intro styles */
 #intro {
   padding: 4rem 4rem;
@@ -252,6 +258,21 @@ nav h1 [class*="fa-"] {
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
+}
+
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .text {
+    order: 2;
+    text-align: right;
+  }
+  #projects ul {
+    justify-content: flex-end;
+  }
 }
 
 /* footer section */

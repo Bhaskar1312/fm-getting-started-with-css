@@ -62,7 +62,9 @@ Link is about, go to another page, page on same website, or another website
 To bring a brand/attention, make Resume a button
 
 responsive design
+old: https://frontendmasters.com/courses/archive/css-grid-flexbox-v2/
 https://frontendmasters.com/courses/css-grid/
+
 
 <small> like <b> and <i> disappeared in HTML4, back in HTML5.
 used for small print, disclaimers, copyright
@@ -74,6 +76,14 @@ To implement a gradient, use border-image. works in chrome, firefox, but not in 
 so use div with a class of gradient, small height to generate the line
 use https://cssgradient.io/ to generate gradient. Use #ff17e4 as the starting color and #86fbfb as the ending color for this exercise, stops at 35, 68, angle at 90deg
 
+putting two items next to each other using flexbox and css grid 
+grid can overlap one cell with another on top of each other, but felxbox can not.
+
+Since we have img on the left and text on the right, 
+we cant switch in html, as in mobile view, text first and img next.
+so, we use order property on the desktop/tablet view
+
+text-align is a inherited property, that can cascade thru all of the text
 
 extras:
 How to create a page for projects on github
