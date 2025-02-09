@@ -263,12 +263,18 @@ nav h1 [class*="fa-"] {
 @media (min-width: 550px) {
   article {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
+  }
+  #projects img {
+    grid-column: 1/6; /* start with col-1 end before col-6 [1,5]*/
+    grid-row: 1/2;
   }
   .text {
     order: 2;
     text-align: right;
+    grid-column: 5/11;
+    grid-row: 1/2;
   }
   #projects ul {
     justify-content: flex-end;
